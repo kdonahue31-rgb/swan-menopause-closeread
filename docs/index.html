@@ -54,11 +54,11 @@ ul.task-list li input[type="checkbox"] {
       <!-- user-provided yaml closeread style options -->
       <style>
         :root {
-          --cr-narrative-background-color-overlay: #fff0f7;
---cr-narrative-font-size: 1.1em;
---cr-section-background-color: #ffe3ee;
+          --cr-narrative-overlay-max-width: 700px;
+--cr-narrative-background-color-overlay: #fff0f7;
 --cr-narrative-text-color-overlay: #bf3b77;
---cr-narrative-overlay-max-width: 700px;
+--cr-section-background-color: #ffe3ee;
+--cr-narrative-font-size: 1.1em;
 --cr-narrative-font-family: Georgia, serif;
         }
       </style>
@@ -104,17 +104,17 @@ ul.task-list li input[type="checkbox"] {
 <p>The Study of Women’s Health Across the Nation followed midlife women from 1996 to 2008, capturing their experiences through one of life’s most significant transitions.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-map" data-pan-to="40%,50%" data-scale-by="1.5">
+<div class="trigger new-trigger" data-pan-to="40%,50%" data-scale-by="1.5" data-focus-on="cr-map">
 <div class="narrative">
 <p>These women came fromseven diverse communities across America.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-map" data-pan-to="60%,30%" data-scale-by="2">
+<div class="trigger new-trigger" data-pan-to="60%,30%" data-scale-by="2" data-focus-on="cr-map">
 <div class="narrative">
 <p>Each siterepresented different racial and ethnic backgrounds, from Detroit to Los Angeles.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-map" data-scale-by="1">
+<div class="trigger new-trigger" data-scale-by="1" data-focus-on="cr-map">
 <div class="narrative">
 <p>Together, they paint a picture of menopause that reflects the true diversity of American women.</p>
 </div>
@@ -145,17 +145,17 @@ ul.task-list li input[type="checkbox"] {
 <p>While every woman’s journey is unique, some experiences are nearly universal.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-symptoms" data-highlight="1-3">
+<div class="trigger new-trigger" data-highlight="1-3" data-focus-on="cr-symptoms">
 <div class="narrative">
 <p>Hot flashes affect 67% of all women in the study.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-symptoms" data-highlight="4-6">
+<div class="trigger new-trigger" data-highlight="4-6" data-focus-on="cr-symptoms">
 <div class="narrative">
 <p>Sleep disturbances and mood changes follow close behind.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-symptoms" data-scale-by="0.8" style="opacity: 0.4">
+<div class="trigger new-trigger" style="opacity: 0.4" data-scale-by="0.8" data-focus-on="cr-symptoms">
 <div class="narrative">
 <p>But here’s where the story gets interesting…</p>
 </div>
@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Our analysis revealed something surprising:women don’t experience menopause on a single path.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-clusters" data-pan-to="25%,50%" data-scale-by="2">
+<div class="trigger new-trigger" data-pan-to="25%,50%" data-scale-by="2" data-focus-on="cr-clusters">
 <div class="narrative">
 <p>Using machine learning, we identifiedfour distinct patterns of menopause experiences.</p>
 </div>
@@ -196,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The largest group started with the healthiest baseline symptoms.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-profile1" data-zoom-to="bone-density">
+<div class="trigger new-trigger" data-zoom-to="bone-density" data-focus-on="cr-profile1">
 <div class="narrative">
 <p>But they had the lowest bone density and experienced the largest increase in hot flashes over 10 years.</p>
 </div>
@@ -206,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This group entered menopause transition earlier than others.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-profile2" data-highlight="fsh-level">
+<div class="trigger new-trigger" data-highlight="fsh-level" data-focus-on="cr-profile2">
 <div class="narrative">
 <p>Their hormone levels told the story—FSH levels nearly 7x higher at baseline.</p>
 </div>
@@ -216,12 +216,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Higher BMI doesn’t always mean worse health outcomes.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-profile3" data-pan-to="50%,30%">
+<div class="trigger new-trigger" data-pan-to="50%,30%" data-focus-on="cr-profile3">
 <div class="narrative">
 <p>This cluster had the highest bone density and fewer symptoms despite elevated BMI.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-profile3" data-highlight="race-stat">
+<div class="trigger new-trigger" data-highlight="race-stat" data-focus-on="cr-profile3">
 <div class="narrative">
 <p>Notably, 54.5% were Black women—double their representation in the overall sample.</p>
 </div>
@@ -231,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
 <p>A small but severely affected group.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-profile4" data-scale-by="1.5">
+<div class="trigger new-trigger" data-scale-by="1.5" data-focus-on="cr-profile4">
 <div class="narrative">
 <p>Every single woman in this cluster struggled with sleep—a reminder that for some, menopause is truly debilitating.</p>
 </div>
@@ -320,12 +320,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="hormones-tell-a-story" class="level3 narrative trigger">
 <h3 class="narrative anchored" data-anchor-id="hormones-tell-a-story">Hormones Tell a Story</h3>
 </section>
-<div class="trigger new-trigger" data-focus-on="cr-trajectories" data-pan-to="20%,20%" data-scale-by="2">
+<div class="trigger new-trigger" data-pan-to="20%,20%" data-scale-by="2" data-focus-on="cr-trajectories">
 <div class="narrative">
 <p>FSH levels rose dramatically for the Early Shift cluster—from 33.5 to nearly 120.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-trajectories" data-pan-to="20%,20%">
+<div class="trigger new-trigger" data-pan-to="20%,20%" data-focus-on="cr-trajectories">
 <div class="narrative">
 <p>All groups converged around 117 mIU/mL by Visit 10, a shared biological endpoint.</p>
 </div>
@@ -333,7 +333,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="depression-diverges" class="level3 narrative trigger">
 <h3 class="narrative anchored" data-anchor-id="depression-diverges">Depression Diverges</h3>
 </section>
-<div class="trigger new-trigger" data-focus-on="cr-trajectories" data-pan-to="70%,20%" data-scale-by="2">
+<div class="trigger new-trigger" data-pan-to="70%,20%" data-scale-by="2" data-focus-on="cr-trajectories">
 <div class="narrative">
 <p>While most groups saw decreasing depression, the Sleep-Disrupted cluster’s mental health worsened.</p>
 </div>
@@ -341,12 +341,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="hot-flashes-intensify" class="level3 narrative trigger">
 <h3 class="narrative anchored" data-anchor-id="hot-flashes-intensify">Hot Flashes Intensify</h3>
 </section>
-<div class="trigger new-trigger" data-focus-on="cr-trajectories" data-pan-to="70%,70%" data-scale-by="2">
+<div class="trigger new-trigger" data-pan-to="70%,70%" data-scale-by="2" data-focus-on="cr-trajectories">
 <div class="narrative">
 <p>The Low Baseline cluster—who started with almost no hot flashes—saw the steepest increase.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-trajectories" data-scale-by="1">
+<div class="trigger new-trigger" data-scale-by="1" data-focus-on="cr-trajectories">
 <div class="narrative">
 <p>By Visit 10, they caught up to other groups. Menopause eventually affects everyone.</p>
 </div>
@@ -377,17 +377,17 @@ ul.task-list li input[type="checkbox"] {
 <p>These patterns aren’t random.Race and ethnicity shape the menopause experience.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-disparities" data-highlight="black-women">
+<div class="trigger new-trigger" data-highlight="black-women" data-focus-on="cr-disparities">
 <div class="narrative">
 <p>Black women report hot flashes at twice the rate of Japanese women (80% vs 35%).</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-disparities" data-highlight="cluster-composition">
+<div class="trigger new-trigger" data-highlight="cluster-composition" data-focus-on="cr-disparities">
 <div class="narrative">
 <p>The Higher BMI cluster is 55% Black women—a stark reminder that health disparities have deep roots.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-disparities" data-pan-to="50%,50%" data-scale-by="1.3">
+<div class="trigger new-trigger" data-pan-to="50%,50%" data-scale-by="1.3" data-focus-on="cr-disparities">
 <div class="narrative">
 <p>These differences aren’t just biological—they reflect systemic inequities in healthcare access, stress, and social determinants of health.</p>
 </div>
@@ -399,10 +399,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- Insert your symptom prevalence by race chart -->
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="path/to/race-disparities.png" class="img-fluid figure-img"></p>
+<p><img src="docs/Images/Heart_Pictogram.png" class="img-fluid figure-img"></p>
 <figcaption>Symptom prevalence varies dramatically by race</figcaption>
 </figure>
 </div>
+<iframe src="https://public.tableau.com/views/SWANTopSymptomsbyRaceInfoVis/Dashboard2?:embed=y&amp;:toolbar=yes&amp;:showVizHome=no" width="1000" height="827" frameborder="0" scrolling="no" allowfullscreen="">
+</iframe>
+<iframe src="https://public.tableau.com/views/SWANRaceDistributionInfoVis/Dashboard3?:embed=y&amp;:toolbar=yes&amp;:showVizHome=no" width="700" height="827" frameborder="0" scrolling="no" allowfullscreen="">
+</iframe>
 </div>
 </div>
 </div>
@@ -423,12 +427,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Use this interactive tool to explore which cluster profile most resembles your experience.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-interactive" data-highlight="input-section">
+<div class="trigger new-trigger" data-highlight="input-section" data-focus-on="cr-interactive">
 <div class="narrative">
 <p>Input your symptoms, demographics, and health markers.</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-interactive" data-highlight="result-section">
+<div class="trigger new-trigger" data-highlight="result-section" data-focus-on="cr-interactive">
 <div class="narrative">
 <p>Discover your cluster and see what trajectories others like you have followed.</p>
 </div>
@@ -463,11 +467,11 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </div>
-<div data-focus-on="cr-final-grid" data-pan-to="50%,50%" data-scale-by="1.5">
+<div data-focus-on="cr-final-grid" data-scale-by="1.5" data-pan-to="50%,50%">
 <p>These 3,302 women taught us that menopause is as diverse as the women who experience it.</p>
 </div>
 <p>Some journeys are smooth. Others are turbulent. Many fall somewhere in between.</p>
-<div data-focus-on="cr-final-grid" style="opacity: 1" data-scale-by="1">
+<div data-focus-on="cr-final-grid" data-scale-by="1" style="opacity: 1">
 <p>But every woman deserves care that recognizes her unique path—not a one-size-fits-all approach.</p>
 </div>
 <hr>

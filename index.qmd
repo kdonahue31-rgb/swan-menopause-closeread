@@ -196,7 +196,18 @@ These patterns aren't random. [@cr-disparities]{} Race and ethnicity shape the m
 
 :::{#cr-disparities}
 <!-- Insert your symptom prevalence by race chart -->
-![Symptom prevalence varies dramatically by race](path/to/race-disparities.png)
+![Symptom prevalence varies dramatically by race](docs/Images/Heart_Pictogram.png)
+
+<iframe src="https://public.tableau.com/views/SWANTopSymptomsbyRaceInfoVis/Dashboard2?:embed=y&:toolbar=yes&:showVizHome=no" width="1000" height="827" frameborder="0" scrolling="no" allowfullscreen> </iframe>
+
+<iframe src="https://public.tableau.com/views/SWANRaceDistributionInfoVis/Dashboard3?:embed=y&:toolbar=yes&:showVizHome=no"
+        width="700"
+        height="827"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen>
+</iframe>
+
 :::
 
 [@cr-disparities]{highlight="black-women"} Black women report hot flashes at twice the rate of Japanese women (80% vs 35%).
