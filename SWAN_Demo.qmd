@@ -1,0 +1,260 @@
+---
+title: "The Women of SWAN: Exploring Diversity in the Menopause Journey"
+subtitle: "Not All Menopause Journeys Begin the Same"
+author: "Team SWAN"
+format:
+  closeread-html:
+    cr-style:
+      section-background-color: "#ffe3ee"           # soft pale pink background
+      narrative-background-color-overlay: "#fff0f7" # light blush overlay
+      narrative-text-color-overlay: "#bf3b77"       # deep rose pink text
+      narrative-overlay-max-width: "700px"
+      narrative-font-family: 'Georgia, serif'
+      narrative-font-size: 1.1em
+---
+
+# Welcome to the SWAN Study
+
+Over 3,302 women participated in one of the most comprehensive studies of menopause ever conducted. This is their story.
+
+---
+
+:::{.cr-section}
+
+## Meet the Women
+
+The Study of Women's Health Across the Nation followed midlife women from 1996 to 2008, capturing their experiences through one of life's most significant transitions. @cr-map
+
+:::{#cr-map}
+<!-- Insert your Tableau US map visualization here -->
+![Map of 7 SWAN study sites across the United States](path/to/map.png)
+:::
+
+These women came from [@cr-map]{pan-to="40%,50%" scale-by="1.5"} seven diverse communities across America.
+
+Each site [@cr-map]{pan-to="60%,30%" scale-by="2"} represented different racial and ethnic backgrounds, from Detroit to Los Angeles.
+
+[@cr-map]{scale-by="1"} Together, they paint a picture of menopause that reflects the true diversity of American women.
+
+:::
+
+---
+
+:::{.cr-section}
+
+## The Shared Experience
+
+While every woman's journey is unique, some experiences are nearly universal. @cr-symptoms
+
+:::{#cr-symptoms}
+<!-- Insert your symptom prevalence bar chart -->
+![Top symptoms across all women](path/to/symptoms-chart.png)
+:::
+
+[@cr-symptoms]{highlight="1-3"} Hot flashes affect 67% of all women in the study.
+
+[@cr-symptoms]{highlight="4-6"} Sleep disturbances and mood changes follow close behind.
+
+But here's where the story gets interesting... [@cr-symptoms]{scale-by="0.8" style="opacity: 0.4"}
+
+:::
+
+---
+
+:::{.cr-section}
+
+## Not All Journeys Are the Same
+
+Our analysis revealed something surprising: [@cr-clusters]{} women don't experience menopause on a single path.
+
+:::{#cr-clusters}
+<!-- Insert your 100-women pictogram grid -->
+![Four distinct clusters of menopause experiences](baseline_clusters_preliminary.png)
+
+<iframe src="https://public.tableau.com/views/FinalSWANClusterVisAnalysis/MenopausalStagebyClusterAcrossVisitsLinePlot?:embed=y&:showVizHome=no&:toolbar=yes"
+        width="1169"
+        height="877"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen>
+</iframe>
+
+:::
+
+Using machine learning, we identified [@cr-clusters]{pan-to="25%,50%" scale-by="2"} four distinct patterns of menopause experiences.
+
+### Cluster 1: Low Baseline (41% of women)
+
+[@cr-profile1]{} The largest group started with the healthiest baseline symptoms.
+
+:::{#cr-profile1}
+<!-- Insert Cluster 1 profile card with radar chart -->
+![Low Baseline Cluster Profile](baseline_clusters_preliminary.png)
+
+**Key Characteristics:**
+- Median FSH: 4.5
+- Lowest depression scores  
+- 49.1% Japanese women
+- Lowest bone density (0.925)
+:::
+
+[@cr-profile1]{zoom-to="bone-density"} But they had the lowest bone density and experienced the largest increase in hot flashes over 10 years.
+
+### Cluster 2: Early Shift (34% of women)
+
+[@cr-profile2]{} This group entered menopause transition earlier than others.
+
+:::{#cr-profile2}
+<!-- Insert Cluster 2 profile card -->
+![Early Shift Cluster Profile](path/to/cluster2-card.png)
+
+**Key Characteristics:**
+- Highest baseline FSH: 33.5
+- Early transition markers
+- Mid-range bone density
+- Moderate symptoms
+:::
+
+[@cr-profile2]{highlight="fsh-level"} Their hormone levels told the story—FSH levels nearly 7x higher at baseline.
+
+### Cluster 3: Higher BMI (22% of women)
+
+[@cr-profile3]{} Higher BMI doesn't always mean worse health outcomes.
+
+:::{#cr-profile3}
+<!-- Insert Cluster 3 profile card -->
+![Higher BMI Cluster Profile](path/to/cluster3-card.png)
+
+**Key Characteristics:**
+- Average BMI: 38
+- Highest blood pressure (132 mmHg)
+- **Best** bone density (1.079)
+- Fewer reported symptoms
+:::
+
+[@cr-profile3]{pan-to="50%,30%"} This cluster had the highest bone density and fewer symptoms despite elevated BMI.
+
+[@cr-profile3]{highlight="race-stat"} Notably, 54.5% were Black women—double their representation in the overall sample.
+
+### Cluster 4: Sleep-Disrupted (3% of women)
+
+[@cr-profile4]{} A small but severely affected group.
+
+:::{#cr-profile4}
+<!-- Insert Cluster 4 profile card -->
+![Sleep-Disrupted Cluster Profile](path/to/cluster4-card.png)
+
+**Key Characteristics:**
+- 100% reported sleep problems
+- Highest depression scores
+- Largest BMI increase over time
+- Multiple compounding symptoms
+:::
+
+[@cr-profile4]{scale-by="1.5"} Every single woman in this cluster struggled with sleep—a reminder that for some, menopause is truly debilitating.
+
+:::
+
+---
+
+:::{.cr-section}
+
+## How Their Bodies Change
+
+These clusters didn't just differ at baseline—[@cr-trajectories]{} they followed different paths over 10 years.
+
+:::{#cr-trajectories}
+<!-- Insert your 4-panel trajectory charts (FSH, Depression, BMI, Hot Flashes) -->
+![Symptom trajectories across visits 0, 5, and 10](path/to/trajectories.png)
+:::
+
+### Hormones Tell a Story
+
+[@cr-trajectories]{pan-to="20%,20%" scale-by="2"} FSH levels rose dramatically for the Early Shift cluster—from 33.5 to nearly 120.
+
+[@cr-trajectories]{pan-to="20%,20%"} All groups converged around 117 mIU/mL by Visit 10, a shared biological endpoint.
+
+### Depression Diverges
+
+[@cr-trajectories]{pan-to="70%,20%" scale-by="2"} While most groups saw decreasing depression, the Sleep-Disrupted cluster's mental health worsened.
+
+### Hot Flashes Intensify
+
+[@cr-trajectories]{pan-to="70%,70%" scale-by="2"} The Low Baseline cluster—who started with almost no hot flashes—saw the steepest increase.
+
+[@cr-trajectories]{scale-by="1"} By Visit 10, they caught up to other groups. Menopause eventually affects everyone.
+
+:::
+
+---
+
+:::{.cr-section}
+
+## Why It Matters: Race and Health Disparities
+
+These patterns aren't random. [@cr-disparities]{} Race and ethnicity shape the menopause experience.
+
+:::{#cr-disparities}
+<!-- Insert your symptom prevalence by race chart -->
+![Symptom prevalence varies dramatically by race](path/to/race-disparities.png)
+:::
+
+[@cr-disparities]{highlight="black-women"} Black women report hot flashes at twice the rate of Japanese women (80% vs 35%).
+
+[@cr-disparities]{highlight="cluster-composition"} The Higher BMI cluster is 55% Black women—a stark reminder that health disparities have deep roots.
+
+[@cr-disparities]{pan-to="50%,50%" scale-by="1.3"} These differences aren't just biological—they reflect systemic inequities in healthcare access, stress, and social determinants of health.
+
+:::
+
+---
+
+:::{.cr-section}
+
+## Your Journey
+
+So where do you fit in this landscape? @cr-interactive
+
+:::{#cr-interactive}
+<!-- Insert your "Where Do I Fit?" interactive Tableau dashboard -->
+![Interactive tool to explore your menopause profile](path/to/interactive-tool.png)
+:::
+
+[@cr-interactive]{} Use this interactive tool to explore which cluster profile most resembles your experience.
+
+[@cr-interactive]{highlight="input-section"} Input your symptoms, demographics, and health markers.
+
+[@cr-interactive]{highlight="result-section"} Discover your cluster and see what trajectories others like you have followed.
+
+:::
+
+---
+
+## The Takeaway
+
+There is no "normal" menopause. [@cr-final-grid]{}
+
+:::{#cr-final-grid}
+<!-- Re-insert the 100-women grid -->
+![Four distinct menopause patterns](path/to/cluster-grid-final.png)
+:::
+
+[@cr-final-grid]{pan-to="50%,50%" scale-by="1.5"} These 3,302 women taught us that menopause is as diverse as the women who experience it.
+
+Some journeys are smooth. Others are turbulent. Many fall somewhere in between.
+
+But every woman deserves care that recognizes her unique path—[@cr-final-grid]{scale-by="1" style="opacity: 1"} not a one-size-fits-all approach.
+
+---
+
+### About This Project
+
+This visualization was created by Team SWAN (Esha Choudhary, Kristen Donahue, Khushi Raj Mittal, Rabab Fatma, Mickey Lin, Mengting Tu) for a Data Visualization course.
+
+**Data Source:** Study of Women's Health Across the Nation (SWAN), ICPSR 28762, 30501, 32961
+
+**Methods:** K-means clustering (k=4) on baseline health metrics, longitudinal trajectory analysis across visits 0, 5, and 10.
+
+**Learn More:** [Link to your GitHub repo or full documentation]
+
+:::

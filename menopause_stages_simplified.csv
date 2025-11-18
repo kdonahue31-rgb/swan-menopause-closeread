@@ -1,0 +1,15 @@
+visit,stage_simple,count,total,percentage
+0,Late Peri/Early Post,1493,3302,45.2
+0,Post-menopause,1761,3302,53.3
+0,Surgical,6,3302,0.2
+0,Unknown,42,3302,1.3
+5,Late Peri/Early Post,1275,2617,48.7
+5,Post-menopause,122,2617,4.7
+5,Pre/Early Peri,898,2617,34.3
+5,Surgical,257,2617,9.8
+5,Unknown,65,2617,2.5
+10,Late Peri/Early Post,308,2245,13.7
+10,Post-menopause,8,2245,0.4
+10,Pre/Early Peri,1818,2245,81.0
+10,Surgical,42,2245,1.9
+10,Unknown,69,2245,3.1

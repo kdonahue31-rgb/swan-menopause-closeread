@@ -1,0 +1,21 @@
+cluster_name,race_label,count,total_in_cluster,percentage
+Early Shift,Black,272,1123,24.2
+Early Shift,Chinese,104,1123,9.3
+Early Shift,Hispanic,86,1123,7.7
+Early Shift,Japanese,575,1123,51.2
+Early Shift,White,86,1123,7.7
+Higher BMI,Black,396,726,54.5
+Higher BMI,Chinese,7,726,1.0
+Higher BMI,Hispanic,59,726,8.1
+Higher BMI,Japanese,256,726,35.3
+Higher BMI,White,8,726,1.1
+Low Baseline,Black,244,1345,18.1
+Low Baseline,Chinese,168,1345,12.5
+Low Baseline,Hispanic,124,1345,9.2
+Low Baseline,Japanese,660,1345,49.1
+Low Baseline,White,149,1345,11.1
+Sleep-Disrupted,Black,22,108,20.4
+Sleep-Disrupted,Chinese,2,108,1.9
+Sleep-Disrupted,Hispanic,16,108,14.8
+Sleep-Disrupted,Japanese,61,108,56.5
+Sleep-Disrupted,White,7,108,6.5
