@@ -1,9 +1,0 @@
-# Ignore everything by default
-*
-
-# Allow tracking of these files/folders
-!SWAN_Demo.qmd
-!docs/
-!_extensions/
-!_quarto.yml
-!quarto_env.yml
